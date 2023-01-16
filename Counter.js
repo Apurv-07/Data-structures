@@ -4,7 +4,7 @@ var d=[14, 6, 5, 22, 10];
 
 function Counter(a,b){
   for (var i of a){
-    if(b.includes(i*2)){
+    if(b.includes(i*i)){
       console.log("Yes "+i)
     }else{
       return false
