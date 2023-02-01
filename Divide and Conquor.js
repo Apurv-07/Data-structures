@@ -42,7 +42,9 @@ function findNum(a, num){
     }
     return -1;  //Item not found
 }
-console.log(findNum(a,7))
+console.log(findNum(a,7)) //Checking a condition where item is absent
 for(var i of a){
-  console.log(findNum(a,i))
+  console.log(findNum(a,i)) //Checking all items
 }
+
+//Here time complexity will be O(log n) because it keeps getting divided by 2. 
